@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eniac</title>
+  <link style="width: 16px; height: 16px;" rel="icon" href="eniac-logo-jpg-1-removebg-preview-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+</head>
+<body class="Degrade_pagina">
+
+  <div id="topo"></div>
+
+  <header class="topo" id="header">
+    <div class="logo">
+      <a href="#">
+        <img src="logos_eniac_centro_universitario_branco-1.png" alt="logo branca" class="imagemlogo logo-branca">
+      </a>
+      <button id="menu-toggle" aria-label="Abrir menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <nav class="menu-container">
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projeto">Projeto</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="home">
+    <picture>
+      <source media="(min-width: 769px)" srcset="layouts_Pagina_home.png">
+      <source media="(max-width: 768px)" srcset="mobile_layout_home.png">
+      <img src="layouts_Pagina_home.png" alt="Imagem principal">
+    </picture>
+  </div>
+
+  <div id="sobre">
+    <picture>
+      <source media="(min-width: 769px)" srcset="layouts_Pagina_sobre.png">
+      <source media="(max-width: 768px)" srcset="mobile_layout_sobre.png">
+      <img src="layouts_Pagina_sobre.png" alt="Imagem sobre">
+    </picture>
+    <div class="texto-sobre">
+      <p>
+        O ENIAC nas comunidades é uma iniciativa
+        desenvolvida por estudantes universitários com o
+        propósito de promover impacto social positivo em
+        comunidades carentes. Nosso projeto conecta a
+        universidade às comunidades carentes por meio de
+        ações sociais como distribuição de alimentos,
+        campanhas de saúde, educação e capacitação. Com a
+        colaboração de alunos, professores e voluntários,
+        promovemos transformação social, incentivando
+        autonomia, cidadania e empatia em cada
+        iniciativa.
+      </p>
+    </div>
+  </div>
+
+  <div id="projeto">
+    <div class="projeto-container">
+    <picture>
+      <source media="(min-width: 769px)" srcset="layouts_CodeJYK_projeto.png">
+      <source media="(max-width: 768px)" srcset="mobile_layout_projetos.png">
+      <img src="layouts_CodeJYK_projeto.png" alt="Imagem sobre">
+    </picture>
+      <!-- Título sobre imagem e cards (somente mobile) -->
+ <div id="projetos-mobile">
+<div id="projetos-mobile" class="carrossel-container">
+  <button class="seta seta-esquerda">←</button>
+
+  <div class="carrossel-imagens">
+    <div class="slide active">
+      <img src="medicina].png" alt="Imagem 1" />
+      <p class="comentario">Profissionais da saúde com o logo da ENIAC levam cuidado, apoio e dignidade à comunidade. Com dedicação e empatia, promovem saúde acessível e demonstram o impacto transformador da educação e do serviço social da instituição.</p>
+    </div>
+    <div class="slide">
+      <img src="img-pro3.jpg" alt="Imagem 2" />
+      <p class="comentario">Estudantes da Faculdade ENIAC promovem ação social com a entrega de cestas básicas, levando esperança e reforçando o compromisso da instituição com um futuro mais justo e solidário.</p>
+    </div>
+    <div class="slide">
+      <img src="unnamed.png" alt="Imagem 3" />
+      <p class="comentario">A imagem retrata a Faculdade Eniac e sua comunidade unidas na doação de roupas. Estudantes e colaboradores organizam peças com dedicação, mostrando o compromisso da instituição com o bem-estar social. A ação solidária reforça valores de empatia e o impacto positivo da união em prol da comunidade.</p>
+    </div>
+  </div>
+
+  <button class="seta seta-direita">→</button>
+</div>
+</div>
+    </div>
+      <!-- Título sobre imagem e cards (somente desktop) -->
+      <div class="titulo-sobre-imagem">
+        <div class="ctneir">
+          <div class="card">
+            <div class="imgbox">
+              <img src="unnamed.png" alt="">
+            </div>
+            <div class="content">
+              <h2>Juntos pelo Bem</h2>
+              </br>
+              <p>A imagem retrata a Faculdade Eniac e sua comunidade unidas na doação de roupas. Estudantes e colaboradores organizam peças com dedicação, mostrando o compromisso da instituição com o bem-estar social. A ação solidária reforça valores de empatia e o impacto positivo da união em prol da comunidade.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="imgbox">
+              <img src="img-pro3.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2 class="text">Alimento e Esperança</h2>
+              </br>
+              <h3>Estudantes da Faculdade ENIAC promovem ação social com a entrega de cestas básicas, levando esperança e reforçando o compromisso da instituição com um futuro mais justo e solidário.</h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="imgbox">
+              <img src="medicina].png" alt="">
+            </div>
+            <div class="content">
+              <h2>Esperança em Cada Consulta</h2>
+              </br>
+              <h3>Profissionais da saúde com o logo da ENIAC levam cuidado, apoio e dignidade à comunidade. Com dedicação e empatia, promovem saúde acessível e demonstram o impacto transformador da educação e do serviço social da instituição.</h3>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <div id="feedback">
+  <picture>
+    <source media="(min-width: 769px)" srcset="layouts_Pagina_Feedback.png">
+    <source media="(max-width: 768px)" srcset="mobile_layout_feedback.png">
+    <img src="layouts_Pagina_Feedback.png" alt="Imagem de fundo feedback">
+  </picture>
+  <div>
+    <h2 class="feedback_h">Feedback´s</h2>
+  </div>
+  <section class="feedback-content">
+    <div class="feedback-form">
+      <form id="formFeedback">
+        <label for="nome">Seu nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" rows="4" required></textarea>
+
+        <button type="submit">Enviar Avaliação</button>
+      </form>
+
+      <div id="feedbackList"></div>
+    </div>
+  </section>
+</div>
+</div>
+</div>
+</div>
+  <a href="#topo" id="btn-topo" title="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <footer>
+    <div class="container--footer">
+      <div class="redes">
+        <a href="https://www.instagram.com/eniac.oficial/" style="--color: #E1306c">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/@eniac.oficial" style="--color: #ff000f">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/eniac.oficial/?locale=pt_BR" style="--color: #4267b2">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+      <p>&copy; Centro Universitário ENIAC, Todos os Direitos Reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
